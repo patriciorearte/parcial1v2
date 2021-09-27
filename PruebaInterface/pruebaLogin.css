@@ -1,0 +1,303 @@
+body
+{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #2AB1A9;    
+}
+.img
+{
+    position: absolute;
+    width: 943px;
+    height: 184px;
+    left: 249px;
+    top: 0px;
+}
+#div1
+{
+    position: absolute;
+    width: 1107px;
+    height: 807px;
+    left: 166px;
+    top: 196px;
+
+    background: #AEEBF3;
+    border-radius: 80px;
+}
+#cajaIngresar
+{
+    position: absolute;
+    width: 434px;
+    height: 90px;
+    left: 350px;
+    top: 20px;
+
+    background: #FFFBFB;
+    border-radius: 80px;
+    position: absolute;
+
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;
+
+    
+}
+
+#cajaUsuario{
+    position: absolute;
+    width: 123px;
+    height: 34px;
+    left: 155px;
+    top: 158px;
+
+    background: #FFFFFF;
+    border-radius: 80px;
+
+   
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000; 
+}
+
+input
+{
+    width: 452px;
+    height: 69px;
+    font-size:30px
+    
+}
+#inputUsuario
+{
+    position: absolute;
+    left: 150px;
+    top: 230px;
+
+    background: #FCF9F9;
+}
+#cajaContraseña{
+    position: absolute;
+    width: 123px;
+    height: 34px;
+    left: 155px;
+    top: 300px;
+
+    background: #FFFFFF;
+    border-radius: 80px;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000; 
+}
+#inputContraseña
+{
+    position: absolute;
+    left: 155px;
+    top: 380px;
+
+    background: #FAF7F7;
+}
+#cajaOlvidar
+{
+    position: absolute;
+    width: 440px;
+    height: 35px;
+    left: 339px;
+    top: 550px;
+
+    background: #FFFFFF;
+    border-radius: 80px;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #E80909; 
+}
+#inputSubmit{
+    position: absolute;
+
+    left: 330px;
+    top: 680px;
+
+    background: #F7F7F7;
+    border-radius: 80px;
+}
+#div2
+{
+    position: absolute;
+    width: 1107px;
+    height: 807px;
+    left: 166px;
+    top: 196px;
+
+    background: #AEEBF3;
+    border-radius: 80px;
+}
+#botonSalir
+{
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    left: 2px;
+    top: 600px;
+
+    background: #FFFFFF;
+    border-radius: 80px;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+
+    color: #000000;
+}
+#cajaDescuento
+{
+    position: absolute;
+    width: 434px;
+    height: 70px;
+    left: 350px;
+    top: 2px;
+
+    background: #FFFBFB;
+    border-radius: 80px;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #000000;
+}
+.tarjetas
+{
+    position: absolute;
+    width: 222px;
+    height: 124px;
+    
+}
+#visaComun
+{
+    position: absolute;
+    
+    left: 202px;
+    top: 480px;
+}
+#logoPaypal
+{
+    position: absolute;
+    
+    left: 202px;
+    top: 350px;
+}
+#masterCard
+{
+    position: absolute;
+
+    left: 202px;
+    top: 230px;
+}
+#descuentoPaypal
+{
+    position: absolute;
+width: 546px;
+height: 94px;
+left: 450px;
+top: 355px;
+
+background: #FFF8F8;
+
+font-family: Rufina;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#descuentoMasterCard
+{
+    position: absolute;
+    width: 546px;
+    height: 94px;
+    top: 219px;
+    left: 450px;
+    
+    background: #FFF8F8;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#descuentoVisa
+{
+    position: absolute;
+    width: 546px;
+    height: 94px;
+    top: 480px;
+    left: 450px;
+
+    background: #FFF8F8;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#textoHola{
+    position: absolute;
+    width: 283px;
+    height: 53px;
+    left: 202px;
+    top: 120px;
+    border-radius: 80px;
+
+    background: #FFFAFA;
+
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #000000;
+}

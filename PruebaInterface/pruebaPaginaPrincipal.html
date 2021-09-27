@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministerio de Salud</title>
+    <link rel="stylesheet" href="pruebaLogin.css" type="text/css">
+    <script src="validar1.js"></script>
+    
+</head>
+<body>
+    <img src="min_salud.png" class="img">
+    <div id="div2">
+        <button onclick="location.href='index.html'" id="botonSalir" >Salir</button>
+        <p id="cajaDescuento">Descuentos</p>
+        <p id="textoHola">Hola</p>
+        <img src="visaComun.png" class="tarjetas" id="visaComun">
+        <img src="logo-Paypal.png" class="tarjetas" id="logoPaypal">
+        <img src="masterCard.png" class="tarjetas" id="masterCard">
+        <p id="descuentoPaypal">30% DE DESCUENTO EN “FARMACIA CABA”
+            AV.CORRIENTES 2122 HASTA 22/9</p>
+        <p id="descuentoMasterCard">5% DE DESCUENTO EN “FARMACIA 24HS”
+            AV.CHUBUT 5202 HASTA  4/3</p>
+            
+        <p id="descuentoVisa">10% DE DESCUENTO EN “FARMACIA YO”
+            AV.CASANOVA 192 HASTA 4/8</p>
+        
+    </div>
+    <script>
+    var usuario = localStorage.getItem("usuario")
+    alert("Hola Usuario: "+localStorage.getItem("usuario"));
+    var nombreDeUsuario=document.getElementById("textoHola");
+    nombreDeUsuario.innerHTML= "Usuario: "+ usuario;
+    </script>
+</body>
+</html>

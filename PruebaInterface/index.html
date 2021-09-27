@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministerio de Salud</title>
+    <link rel="stylesheet" href="pruebaLogin.css" type="text/css">
+    <script src="validar1.js"></script>
+</body>
+
+</head>
+<body>
+    <img src="min_salud.png" class="img" >
+    <div id="div1">
+        <p id="cajaIngresar">Ingresar</p>
+        <p id="cajaUsuario">Usuario:</p>
+        <p id="cajaContraseña">Contraseña:</p>
+        <p id="cajaOlvidar"> ¿Olvidaste la contraseña?</p>
+        <form action="pruebaPaginaPrincipal.html" method="POST"  onsubmit="return validar();">
+            <input type="text"  id="inputUsuario" required>
+            <input type="password" id="inputContraseña" required>
+            <input type="submit"  value="Ingresar" id="inputSubmit" >
+        </form>
+        
+    </div>
+    
+   
+    
+</body>
+</html>
